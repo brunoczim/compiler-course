@@ -1,0 +1,22 @@
+inte p = 0;
+inte q = 0;
+inte r = 0;
+
+inte main()
+{
+    escreva "P: ";
+    p = entrada;
+    escreva "Q: ";
+    q = entrada;
+    escreva "R: ";
+    r = entrada;
+
+    // (p -> q) ^ r
+    entaum
+        escreva "1\n"
+    senaum
+        escreva "0\n"
+    se ((~~~(p != 0) | (q != 0)) & (r != 0));
+
+    retorne 0;
+}

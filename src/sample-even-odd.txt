@@ -1,0 +1,39 @@
+inte nums[4] 9;
+inte i = 0;
+
+inte main()
+{
+    i = 4;
+
+    {
+        escreva "enter a number: ";
+        nums[i - 1] = entrada;
+        entaum
+            escreva "even\n"
+        senaum
+            escreva "odd\n"
+        se (is_even(nums[i - 1]) == 1);
+        
+        i = i - 1;
+    } enquanto (i > 0);
+
+    retorne 0;
+}
+
+inte is_even(inte m)
+{
+    entaum
+        retorne 1
+    senaum
+        retorne is_odd(m - 1)
+    se (m == 0);
+}
+
+inte is_odd(inte n)
+{
+    entaum
+        retorne 0
+    senaum
+        retorne is_even(n - 1)
+    se (n == 0);
+}

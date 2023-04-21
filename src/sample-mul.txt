@@ -1,0 +1,36 @@
+inte l = 0;
+inte r = 0;
+inte mul_res = 0;
+inte div_res = 0;
+
+inte main()
+{
+    escreva "l: ";
+    l = entrada;
+    escreva "r: ";
+    r = entrada;
+    mul_res = mul(l r 0);
+    escreva "l * r via successive sums: " mul_res '\n';
+    mul_res = l * r;
+    escreva "l * r via instructions: " mul_res '\n';
+    div_res = mul_res / l;
+    escreva "division by l: " div_res '\n';
+    div_res = mul_res / r;
+    escreva "division by r: " div_res '\n';
+    escreva r * 4 "\n";
+    escreva r * (0-4) "\n";
+    escreva r / 8 "\n";
+    escreva r * 16 "\n";
+    escreva r * (0-16) "\n";
+    escreva r / (0-32) "\n";
+    retorne 0;
+}
+
+inte mul(inte x inte y inte acc)
+{
+    entaum
+        retorne acc
+    senaum
+        retorne mul(x - 1 y acc + y)
+    se (x == 0);
+}

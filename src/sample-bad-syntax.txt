@@ -1,0 +1,47 @@
+inte ivec[5] 1 2 3;
+cara cvec[6] 'h' 'e' 'l' 'l' 'o' '\n';
+real rvec[2] 2.56 3.7;
+inte i = 0;
+
+inte main()
+{
+	i = 0;
+	{
+		escreva cvec[i];
+		[i] = cvec[i] + 1
+		i = i + 1;
+	} enquanto (i < 6);
+
+	i = 0;
+	{
+		escreva cvec[i];
+		i = i + 1;
+	} enquanto (i < 6);
+	escreva '\n';
+
+	i = 0;
+	{
+		ivec[i] = ivec[i] + entrada;
+		i = i + 1;
+	} enquanto (i < 5);
+
+	i = 0;
+	{
+		escreva ivec[i];
+		escreva '\n';
+		i = i + 1;
+	} enquanto (i < 5);
+
+	i = 0;
+	{
+		escreva rvec[i] '\n';
+		i = i + 1;
+	} enquanto i < 2);
+
+	retorne 0;
+}
+
+inte do_stuff
+{
+	escreva x;
+}

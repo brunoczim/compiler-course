@@ -1,0 +1,10 @@
+y.tab.h
+y.tab.c
+lex.yy.c
+*.o
+etapa7
+a.out
+sample-*.s
+out*.txt
+*.tgz
+md5-input-big.txt

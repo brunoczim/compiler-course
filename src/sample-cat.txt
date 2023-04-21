@@ -1,0 +1,17 @@
+inte icode = 0;
+cara ccode = 0;
+
+inte main()
+{
+    {
+        icode = entrada;
+        entaum
+        {
+            ccode = icode;
+            escreva ccode;
+            escreva '\n';
+        } se (icode >= 0);
+    } enquanto (icode >= 0);
+    
+    retorne 0;
+}
